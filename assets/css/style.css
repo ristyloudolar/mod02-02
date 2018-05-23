@@ -1,0 +1,91 @@
+/*
+*
+* CSS Reset
+*
+*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*
+*
+* General Rules
+*
+*/
+header#mainHeader {
+	background-color: maroon;
+	min-height: 10vh;
+	font-family: 'Roboto', serif;
+	color: white;
+}
+header#mainHeader > div {
+	height: 100%;
+	width: 50%;
+	float: left;
+}
+header#mainHeader > div > h2 {
+	line-height: 10vh;
+	margin-left: 15px;
+}
+header#mainHeader > div:last-child > ul {
+	list-style: none;
+	text-align: right;
+}
+header#mainHeader > div:last-child > ul > li {
+	display: inline;
+	line-height: 10vh;
+	margin-right: 15px;
+}
+header#mainHeader > div:last-child > ul > li > a {
+	color: white;
+	text-decoration: none;
+}
+
+body {
+	background-color: green;
+	font-family: 'PT Serif', sans-serif;
+	
+}
+main#wrapper {
+	background-color: white;
+	width: 80%;
+	margin: 0 auto;
+	min-height: 100vh;
+	padding: 25px;
+}
+main#wrapper > h1 {
+	font-family: 'PT Serif', sans-serif;
+	text-align: center;
+}
+
+main#wrapper > img {
+	width: 100%;
+	border: 2px solid grey;
+}
+
+main#wrapper > ul {
+	list-style: none;
+	font-family: 'PT Serif', sans-serif;
+	text-align: center; 
+}
+
+main#wrapper > ul > li {
+	display: inline-block;
+	margin-right: 15px;
+	padding: 15px;
+}
+
+main#wrapper > ul > li > a {
+	text-decoration: none;
+}
+
+footer#mainFooter {
+	background-color: maroon;
+	font-family: 'PT Serif', sans-serif;
+	min-height: 5vh;
+	padding: 15px;
+	text-align: center;
+	color: white;
+}
